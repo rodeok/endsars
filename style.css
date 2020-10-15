@@ -1,0 +1,92 @@
+*{
+   padding: 10px;
+}
+
+
+.con{
+    display: flex;
+}
+.spat{
+    color: aqua;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.dem{
+    display: flex;
+}
+
+.fetty{
+    display: flex;
+}
+.contact{
+    display: flex;
+}
+.secto{
+    display: flex;
+}
+.skills-center{
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+}
+.skill{
+    margin: 50px;
+}
+.title-text{
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/* .title-text::after{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 2px;
+    background-color: aqua;
+    /* transition: width .3s; */
+    /* width: 23px; */
+/* } */
+/* .title-text:hover::after{ */
+    /* width: 100%; */
+    /* transition: width .3s; */
+/* } */ 
+.dt{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 20px;
+}
+.io{
+    color: gray;
+}
+.buds{
+    background: hsl(211°, 100%, 51%);
+}
+.contact input{
+    /* width: 100%; */
+    /* height: 100%; */
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    margin: 5%;
+    
+}
+.hire{
+    border-style: none;
+    background: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
